@@ -6,7 +6,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    Dog.save
+    save
   end
   
   def self.all
