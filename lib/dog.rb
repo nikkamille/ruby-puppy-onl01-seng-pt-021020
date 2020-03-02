@@ -17,7 +17,7 @@ class Dog
     @@all.each {|dog| puts dog.name}
   end
   
-  def self.save
+  def save
     @@all << self.new
   end
 end
