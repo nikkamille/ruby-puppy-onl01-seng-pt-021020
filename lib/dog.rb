@@ -18,6 +18,6 @@ class Dog
   end
   
   def save
-    @@all << self
+    @@all << Dog.new
   end
 end
